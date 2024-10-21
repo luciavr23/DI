@@ -1,0 +1,51 @@
+.naranja{
+    height: 50px;
+    background-color: orangered;
+}
+.amarilloPastel{
+    height: 50px;
+    background-color: rgb(253, 253, 121);
+}
+.azul{
+    height: 50px;
+    background-color:#729FCF;
+}
+.verde{
+    @media (min-width:992px)and ( max-width: 1950px) {
+        height: 100px;
+    }
+    @media (min-width:768px)and ( max-width: 991px) {
+        height: 150px;
+    }
+    @media (min-width:1px)and ( max-width: 767px) {
+        height: 50px;
+    }
+    background-color: rgb(50, 176, 46);
+}
+.verdeClaro{
+    height: 50px;
+    background-color: rgb(130, 180, 129);
+}
+.amarillo{
+    height: 200px;
+    background-color: rgb(255, 231, 14);
+}
+.morado{
+    height: 50px;
+    background-color: rgb(255, 231, 14);
+}
+.rosa{
+    height: 50px;
+    background-color: rgb(254, 134, 198);
+}
+.morado{
+    height: 50px;
+    background-color: rgb(167, 149, 199);
+}
+.rojo{
+    height: 50px;
+    background-color: rgb(230, 0, 0);
+}
+div{
+    text-align: center;
+}
