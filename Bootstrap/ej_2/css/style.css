@@ -1,0 +1,35 @@
+.rojo{
+    background-color: red;
+    height: 50px;
+}
+.amarillo{
+    background-color: rgb(255, 225, 0);
+    height: 150px;
+}
+#logo{
+    height: 50px;
+}
+.marron{
+    background-color: brown;
+    height: 50px;
+}
+.verde{
+    background-color: green;
+    height: 50px;
+}
+.verdeClaro{
+    background-color: rgb(106, 255, 106);
+    height: 50px;
+}
+.morado{
+    background-color: rgb(91, 0, 148);
+    height: 50px;
+    color: white;
+}
+.azul{
+    background-color: rgb(94, 121, 230);
+    height: 50px;
+}
+div{
+    text-align: center;
+}
