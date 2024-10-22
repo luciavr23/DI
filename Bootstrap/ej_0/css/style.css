@@ -1,0 +1,23 @@
+.azul{
+    background-color: #87AADE;
+    height: 50px;
+    padding-top: 10px;
+}
+.verde{
+    background-color: #00FF00;
+    height: 50px;
+    padding-top: 10px;
+}
+.gris{
+    background-color: #CCCCCC;
+    height: 50px;
+    padding-top: 10px;
+}
+.aguaMarina{
+    background-color:#00FFFF ;
+    height: 50px;
+    padding-top: 10px;
+}
+div{
+    text-align: center;
+}
