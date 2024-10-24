@@ -1,0 +1,59 @@
+.rojo{
+    background-color: red;
+    height: 50px;
+}
+.azul{
+    background-color: rgb(51, 0, 255);
+    height: 50px;
+    color: white;
+}
+.amarillo{
+    background-color: rgb(255, 225, 0);
+    height: 100px;
+}
+.rosa{
+    background-color: rgb(226, 101, 231);
+    height: 50px;
+}
+.azulClaro{
+    background-color:aqua;
+    height: 50px;
+}
+.naranja{
+    background-color: rgb(255, 141, 27);
+    height: 50px;
+}
+.naranjaClaro{
+    background-color:orange;
+    height: 50px;
+}
+.burdeos{
+    background-color:rgb(152, 10, 0);
+    height: 50px; 
+}
+.anil{
+    background-color:rgb(101, 127, 153);
+    height: 50px; 
+}
+.verdeAgua{
+    background-color:rgb(140, 160, 150);
+    height: 50px; 
+}
+.verdeOsc{
+    background-color:rgb(25, 107, 11);
+    height: 50px; 
+}
+#seccion6{
+    height: 100px;
+}
+.verde{
+    background-color:greenyellow;
+    height: 50px; 
+}
+.gris{
+    background-color:rgb(137, 129, 141);
+    height: 50px; 
+}
+div{
+    text-align: center;
+}
