@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio3</title>
+  <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <div id="accordion1">
+      <div class="accordion-item">
+        <div class="accordion-header" id="cabecera1">
+          <h5 class="mb-0">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta1" aria-expanded="true"
+              aria-controls="respuesta1">
+              Sevilla
+            </button>
+          </h5>
+        </div>
+        <div id="respuesta1" class="accordion-collapse collapse show" aria-labelledby="cabecera1"
+          data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <ul>
+              <li>Utrera:50.728</li>
+              <li>Carmona:28.531</li>
+              <li>Camas:27.509</li>
+              <li>Arahal:19.526</li>
+            </ul>
+            <a href="https://www.sevilla.org/">Enlace a ayuntamiento</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" id="cabecera2">
+          <h5 class="mb-0">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta2" aria-expanded="true"
+              aria-controls="respuesta2">
+              Huelva
+            </button>
+          </h5>
+        </div>
+        <div id="respuesta2" class="accordion-collapse collapse" aria-labelledby="cabecera2"
+          data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <ul>
+              <li>Lepe:27.880</li>
+              <li>Almonte:24.507</li>
+              <li>Moguer:21.867</li>
+              <li>Cartaya:20.083</li>
+            </ul>
+            <a href="http://www.huelva.es/portal/">Enlace a ayuntamiento</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header" id="cabecera3">
+          <h5 class="mb-0">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta3" aria-expanded="true"
+              aria-controls="respuesta3">
+              Cádiz
+            </button>
+          </h5>
+        </div>
+        <div id="respuesta3" class="accordion-collapse collapse" aria-labelledby="cabecera3"
+          data-bs-parent="#accordion1">
+          <div class="accordion-body">
+            <ul>
+              <li>Jerez de la Frontera:212.801</li>
+              <li>Algeciras:122.982</li>
+              <li>San Fernando:94.867</li>
+              <li>Sanlúcar de Barrameda:69.507</li>
+            </ul>
+            <a href="https://institucional.cadiz.es/portada_2017">Enlace a ayuntamiento</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="accordion4">
+        <div class="accordion-item">
+          <div class="accordion-header" id="cabecera4">
+            <h5 class="mb-0">
+              <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#respuesta4"
+                aria-expanded="true" aria-controls="respuesta4">
+                Córdoba
+              </button>
+            </h5>
+          </div>
+          <div id="respuesta4" class="accordion-collapse collapse" aria-labelledby="cabecera4"
+            data-bs-parent="#accordion1">
+            <div class="accordion-body">
+              <ul>
+                <li>Lucena:42.712</li>
+                <li>Puente Genil:29.767</li>
+                <li>Montilla:22.633</li>
+                <li>Cabra:20.245</li>
+              </ul>
+              <a href="https://www.cordoba.es/">Enlace a ayuntamiento</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="row">
+      
+          <div class="dropdown col-3 mt-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+              Sevilla
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Utrera:50.728</a>
+              <a class="dropdown-item" href="#">Carmona:28.531</a>
+              <a class="dropdown-item" href="#">Camas:27.509</a>
+              <a class="dropdown-item" href="#">Arahal:19.526</a>
+            </div>
+          </div>
+        
+          <div class="dropdown col-3 mt-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+              Huelva
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lepe:27.880</a>
+              <a class="dropdown-item" href="#">Almonte:24.507</a>
+              <a class="dropdown-item" href="#">Moguer:21.867</a>
+              <a class="dropdown-item" href="#">Cartaya:20.083</a>
+            </div>
+          </div>
+
+          <div class="dropdown col-3 mt-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+              Cádiz
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Jerez de la Frontera:212.801</a>
+              <a class="dropdown-item" href="#">Algeciras:122.982</a>
+              <a class="dropdown-item" href="#">San Fernando:94.867</a>
+              <a class="dropdown-item" href="#">Sanlúcar de Barrameda:69.507</a>
+            </div>
+          </div>
+
+          <div class="dropdown col-3 mt-4">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown1" data-bs-toggle="dropdown">
+              Córdoba
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Lucena:42.712</a>
+              <a class="dropdown-item" href="#">Puente Genil:29.767</a>
+              <a class="dropdown-item" href="#">Montilla:22.633</a>
+              <a class="dropdown-item" href="#">Cabra:20.245</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

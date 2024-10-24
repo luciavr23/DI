@@ -1,0 +1,32 @@
+div{
+    text-align: center;
+}
+
+.verde{
+    background-color: green;
+    height:100px;
+}
+.aguaM{
+    background-color: aquamarine;
+    height:100px;
+}
+.azul{
+    background-color: blue;
+    height:100px;
+}
+.naranja{
+    background-color: orangered;
+    height:100px;
+}
+.gris{
+    background-color: gray;
+    height:100px;
+}
+#cabec{
+    height: 50px;
+}
+#footer{
+    height:30px;
+}
+
+
